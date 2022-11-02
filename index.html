@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jebol | Jersey Bola Online</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- My Icon -->
+    <script
+      src="https://kit.fontawesome.com/bc46f410d1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark mt-lg-1 sticky-top shadow border-bottom border-2 border-warning"
+    >
+      <div class="container">
+        <!-- navbar logo -->
+        <a class="navbar-brand" href="index.html">jebol</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang Kami</a>
+            </li>
+            <!-- dropdown kategori -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kategori Produk
+              </a>
+              <ul class="dropdown-menu">
+                <li
+                  class="nav-item dropdown d-lg-inline-flex mb-2 mb-lg-0 active"
+                >
+                  <img
+                    src="img/premier_league.png"
+                    width="22"
+                    alt=""
+                    class="ms-3 my-1 d-inline d-lg-inline-block"
+                  />
+                  <a class="dropdown-item d-inline d-lg-block" href="#"
+                    >Liga Inggris</a
+                  >
+                </li>
+                <li class="d-lg-inline-flex mb-2 mb-lg-0">
+                  <img
+                    src="img/lal_liga.png"
+                    width="22"
+                    alt=""
+                    class="ms-3 my-1 d-inline d-lg-inline-block"
+                  />
+                  <a class="dropdown-item d-inline d-lg-block" href="#"
+                    >Liga Spanyol</a
+                  >
+                </li>
+                <li class="d-lg-inline-flex mb-2 mb-lg-0">
+                  <img
+                    src="img/serie_a.png"
+                    width="20"
+                    alt=""
+                    class="ms-3 my-1 d-inline d-lg-inline-block"
+                  />
+                  <a class="dropdown-item d-inline d-lg-block" href="#"
+                    >Liga Italia</a
+                  >
+                </li>
+                <li class="d-lg-inline-flex mb-2 mb-lg-0">
+                  <img
+                    src="img/bundesliga.png"
+                    width="22"
+                    alt=""
+                    class="ms-3 my-1 d-inline d-lg-inline-block"
+                  />
+                  <a class="dropdown-item d-inline d-lg-block" href="#"
+                    >Liga Jerman</a
+                  >
+                </li>
+                <li class="d-lg-inline-flex mb-2 mb-lg-0">
+                  <img
+                    src="img/Ligue1.png"
+                    width="20"
+                    alt=""
+                    class="ms-3 my-1 d-inline d-lg-inline-block"
+                  />
+                  <a class="dropdown-item d-inline d-lg-block" href="#"
+                    >Liga Perancis</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hubungi Kami</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control rounded-0 rounded-start"
+              type="search"
+              placeholder="Cari Jersey / Liga"
+              aria-label="Search"
+              id="search-input"
+            />
+            <a
+              class="btn btn-outline-warning me-3 rounded-0 rounded-end"
+              type="submit"
+              id="search-button"
+              href="#"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <a class="btn btn-outline-warning me-lg-5 my-lg-auto" href="">
+              <i class="fa-solid fa-cart-shopping text-light"></i
+            ></a>
+          </form>
+          <!-- login dan register -->
+          <div class="ms-auto my-3 my-lg-0">
+            <a class="btn btn-outline-warning" href="login.html">Masuk</a>
+            <a class="btn btn-warning ms-2" href="register.html">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero -->
+    <section class="hero container my-2" id="hero">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators py-2">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- slide 1 carousel -->
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img
+              src="img/carousel_1.jpg"
+              class="d-block w-100 rounded"
+              alt="slide 1"
+            />
+            <div class="carousel-caption d-md-block bg-dark rounded-3 px-3">
+              <h5 class="fw-bold text-warning">
+                NIKMATI PROMO MENARIK DARI
+                <span class="jebol">JEBOL</span> ( JERSEY BOLA ONLINE )
+              </h5>
+              <p>
+                Diskon 30% untuk pembelian jersey Arsenal dan Manchester City
+                khusus di bulan Oktober
+              </p>
+            </div>
+          </div>
+          <!-- slide 2 carousel -->
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="img/carousel_2.jpg"
+              class="d-block w-100 rounded"
+              alt="slide 2"
+            />
+            <div class="carousel-caption d-md-block rounded-3 px-3">
+              <h5 class="fw-bold text-warning">
+                DUKUNG DAN BELI JERSEY TIM KEBANGGAN MU SEKARANG
+              </h5>
+              <p>
+                Hanya ada di <span class="jebol">jebol</span> ( JERSEY BOLA
+                ONLINE )
+              </p>
+            </div>
+          </div>
+          <!-- slide 3 carousel -->
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="img/carousel_3.jpg"
+              class="d-block w-100 rounded"
+              alt="slide 3"
+            />
+            <div class="carousel-caption d-md-block rounded-3 px-3">
+              <h5 class="fw-bolder text-warning">
+                Jersey Liga Inggris terbaru 2022/2023
+              </h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Whatsapp icon fixed -->
+    <a href="" target="_blank" class="whatsapp-fixed btn btn-light border">
+      <i class="fa-brands fa-whatsapp text-success fs-1"></i>
+    </a>
+    <!-- End whatsapp icon fixed -->
+
+    <!-- Product -->
+    <section class="produk my-5">
+      <div class="container">
+        <div class="row mt-4 my-lg-3" id="judul-produk">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold title-produk">Produk</h2>
+            <hr class="w-25 mx-auto border border-2 border-dark" />
+          </div>
+        </div>
+        <div class="row" id="list-produk"></div>
+
+        <div class="row my-5" id="selengkapnya">
+          <div class="col-12 text-center">
+            <button class="btn btn-primary">Lihat Selengkapnya</button>
+          </div>
+        </div>
+        <div class="row my-5" id="liga">
+          <div class="col-12 col-md-6 col-lg-2 offset-lg-1 mb-3">
+            <button
+              class="btn border border-2 border-secondary shadow w-100 button-liga"
+            >
+              <img
+                src="img/premier_league.png"
+                alt="premier league"
+                width="20"
+              />
+              Liga Inggris
+            </button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2 mb-3">
+            <button
+              class="btn border border-2 border-secondary shadow w-100 button-liga"
+            >
+              <img src="img/lal_liga.png" alt="la liga" width="20" />
+              Liga Spanyol
+            </button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2 mb-3">
+            <button
+              class="btn border border-2 border-secondary shadow w-100 button-liga"
+            >
+              <img src="img/serie_a.png" alt="serie a" width="20" />
+              Liga Italia
+            </button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2 mb-3">
+            <button
+              class="btn border border-2 border-secondary shadow w-100 button-liga"
+            >
+              <img src="img/bundesliga.png" alt="bundesliga" width="20" />
+              Liga Jerman
+            </button>
+          </div>
+          <div class="col-12 col-md-12 col-lg-2">
+            <button
+              class="btn border border-2 border-secondary shadow w-100 button-liga"
+            >
+              <img src="img/Ligue1.png" alt="ligue 1" width="20" />
+              Liga Perancis
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Product -->
+
+    <!-- Detail Produk -->
+    <section class="container mb-5" id="section-2">
+      <div class="row" id="breadcrumb"></div>
+      <div class="row">
+        <div class="col-lg-4" id="detail-gambar"></div>
+        <div
+          class="col-lg-7 offset-lg-1 p-3 shadow rounded"
+          id="detail-produk"
+        ></div>
+      </div>
+      <div class="row mt-5" id="spesifikasi-produk"></div>
+    </section>
+    <!-- End Detail Produk -->
+
+    <!-- Footer -->
+    <footer
+      class="bg-dark text-light px-4 pt-4 border-top border-2 border-warning shadow"
+    >
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <h5 class="jebol">JEBOL</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-decoration-none text-light" href=""
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a class="text-decoration-none text-light" href=""
+                >Hubungi Kami</a
+              >
+            </li>
+            <li>
+              <a class="text-decoration-none text-light" href=""
+                >Syarat dan Ketentuan</a
+              >
+            </li>
+            <li>
+              <a class="text-decoration-none text-light" href=""
+                >Kebijakan Privasi</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <a
+            class="text-decoration-none lh-lg"
+            href="https://g.page/haltev-id?share"
+            >Jl.Boulevard Raya Barat Blok RGA no.30 Ruko Grand Galaxy City
+            RT.001, RT.001/RW.002, Jaka Setia, Bekasi Selatan, Bekasi City, West
+            Java 17147</a
+          >
+        </div>
+        <div class="col-lg-4 mt-3 mt-lg-0">
+          <h5 class="fw-bold text-warning">Ikuti Kami</h5>
+          <ul
+            class="sosmed list-unstyled d-flex justify-content-center gap-3 mt-3"
+          >
+            <li>
+              <a
+                class="text-decoration-none btn btn-light rounded-circle"
+                href="https://instagram.com/mchdysf"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram text-danger"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-decoration-none btn btn-light rounded-circle"
+                href=""
+              >
+                <i class="fa-brands fa-facebook text-primary"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-decoration-none btn btn-light rounded-circle"
+                href="https://twitter.com/mchdysf"
+                target="_blank"
+              >
+                <i class="fa-brands fa-twitter text-info"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-decoration-none btn btn-light rounded-circle"
+                href=""
+              >
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row text-center mt-5">
+        <div class="col-12">
+          <p>
+            Copyright <i class="fa-regular fa-copyright"></i> 2022 by
+            <strong class="text-warning">Mochamad Yusuf</strong> All Right
+            Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/index.js"></script>
+  </body>
+</html>

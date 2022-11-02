@@ -1,0 +1,215 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* Halaman Beranda */
+
+/* Navbar */
+.navbar .navbar-brand {
+  font-family: "Bungee Spice", cursive;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover {
+  color: #fd7e14;
+}
+
+/* Hero */
+.hero .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.hero .carousel-item img {
+  height: 500px;
+}
+
+.hero .carousel-item .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero .carousel-item .jebol {
+  font-family: "Bungee Spice", cursive;
+}
+
+/* Whats app icon fixed */
+.whatsapp-fixed {
+  position: fixed;
+  top: 45%;
+  right: 5px;
+  z-index: 1;
+}
+
+/* Produk */
+.produk a .card:hover {
+  outline: 2px solid #fd7e14;
+  transition: 0.5s;
+}
+
+.produk .card img {
+  height: 260px;
+}
+
+.size-button {
+  width: 50px;
+}
+
+/* Footer */
+footer .jebol {
+  font-family: "Bungee Spice", cursive;
+}
+
+footer a:hover {
+  color: #fd7e14 !important;
+}
+
+footer .sosmed a:hover {
+  border: 1px solid #fd7e14;
+}
+
+/* Halaman Register */
+.register .jebol {
+  font-family: "Bungee Spice", cursive;
+}
+
+.register .card {
+  width: 75%;
+}
+
+/* Halaman Detail Produk */
+.detail-produk .carousel-indicators img {
+  width: 50%;
+  height: 100px;
+}
+
+.detail-produk form a {
+  width: 15%;
+}
+
+.detail-produk form a:hover {
+  border-color: #fd7e14 !important;
+  transition: 0.5s;
+}
+
+.detail-produk form select {
+  width: 25%;
+}
+
+.detail-produk form select:hover {
+  border-color: #fd7e14;
+}
+
+.detail-produk form input[type="number"] {
+  width: 20%;
+}
+
+.detail-produk form p {
+  width: 20%;
+}
+
+/* Smartphone */
+@media screen and (max-width: 768px) {
+  /* Hero */
+  .hero .carousel-item .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    background-color: #000;
+  }
+
+  .hero .carousel-item .carousel-caption h5 {
+    line-height: 150%;
+  }
+
+  .hero .carousel-item img {
+    height: 250px;
+  }
+
+  /* Whats app icon fixed */
+  .whatsapp-fixed {
+    position: fixed;
+    top: 72%;
+    right: 5px;
+    z-index: 1;
+  }
+
+  /* Produk */
+  .produk .card img {
+    height: 170px;
+  }
+
+  .produk .card .card-body {
+    height: 170px;
+  }
+
+  /* Halaman Register */
+  .register .card {
+    width: 100%;
+  }
+
+  .register .register-banner {
+    display: none;
+  }
+
+  /* Halaman Detail Produk */
+  .detail-produk .carousel-indicators img {
+    width: 34%;
+    height: 100px;
+  }
+
+  .detail-produk form select {
+    width: 45%;
+  }
+
+  .detail-produk form p {
+    width: 25%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* Hero */
+  .hero .carousel-item img {
+    height: 400px;
+  }
+
+  /* Whats app icon fixed */
+  .whatsapp-fixed {
+    position: fixed;
+    top: 62%;
+    right: 5px;
+    z-index: 1;
+  }
+
+  /* Produk */
+  .produk .card img {
+    height: 300px;
+  }
+
+  .produk .card .card-body {
+    height: 150px;
+  }
+
+  /* Halaman Register */
+  .register .card {
+    width: 75%;
+  }
+
+  .footer-register {
+    margin-top: 250px;
+  }
+
+  /* Halaman Detail Produk */
+  .detail-produk .carousel-indicators img {
+    width: 50%;
+    height: 170px;
+  }
+
+  .detail-produk form select {
+    width: 25%;
+  }
+}

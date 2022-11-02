@@ -1,0 +1,247 @@
+{
+  "produk": [
+    {
+      "kategori": "Liga Inggris",
+      "nama": "JERSEY ARSENAL HOME 2022/2023",
+      "harga": "120000",
+      "diskon": 30,
+      "kota": "Jakarta Timur",
+      "rating": "5.0",
+      "terjual": "300",
+      "gambar": {
+        "klub": [
+          "../img/arsenal_home_depan.jpg",
+          "../img/arsenal_home_belakang.jpg",
+          "../img/arsenal_zoom.jpg",
+          "../img/arsenal_logo.jpg"
+        ],
+        "liga": "../img/premier_league.png"
+      }
+    },
+    {
+      "kategori": "Liga Inggris",
+      "nama": "MANCHESTER CITY HOME 2022/2023",
+      "harga": "120000",
+      "diskon": "30",
+      "kota": "Jakarta Timur",
+      "rating": "4.8",
+      "terjual": "150",
+      "gambar": {
+        "klub": [
+          "../img/city_home_depan.jpg",
+          "../img/city_home_belakang.jpg",
+          "../img/city_home_depan.jpg",
+          "../img/city_home_belakang.jpg"
+        ],
+        "liga": "../img/premier_league.png"
+      }
+    },
+
+    {
+      "kategori": "Liga Spanyol",
+      "nama": "JERSEY BARCELONA HOME 2022/2023",
+      "harga": "130000",
+      "kota": "Jakarta Selatan",
+      "rating": "4.9",
+      "terjual": "250",
+      "gambar": {
+        "klub": [
+          "../img/barcelona_home_depan.jpg",
+          "../img/barcelona_home_belakang.jpg",
+          "../img/barcelona_home_depan.jpg",
+          "../img/barcelona_home_belakang.jpg"
+        ],
+        "liga": "../img/lal_liga.png"
+      }
+    },
+    {
+      "kategori": "Liga Perancis",
+      "nama": "JERSEY PARIS SAINT GERMAIN HOME 2022/2023",
+      "harga": "120000",
+      "kota": "Jakarta Timur",
+      "rating": "4.7",
+      "terjual": "50",
+      "gambar": {
+        "klub": [
+          "../img/psg_home_depan.jpg",
+          "../img/psg_home_depan.jpg",
+          "../img/psg_home_depan.jpg",
+          "../img/psg_home_depan.jpg"
+        ],
+        "liga": "../img/Ligue1.png"
+      }
+    },
+    {
+      "kategori": "Liga Italia",
+      "nama": "JERSEY INTER MILAN HOME 2022/2023",
+      "harga": "100000",
+      "kota": "Jakarta Selatan",
+      "rating": "4.5",
+      "terjual": "30",
+      "gambar": {
+        "klub": [
+          "../img/inter_home_depan.png",
+          "../img/inter_home_belakang.png",
+          "../img/inter_home_depan.png",
+          "../img/inter_home_belakang.png"
+        ],
+        "liga": "../img/serie_a.png"
+      }
+    },
+    {
+      "kategori": "Liga Inggris",
+      "nama": "MANCHESTER CITY AWAY 2022/2023",
+      "harga": "120000",
+      "diskon": 30,
+      "kota": "Bekasi",
+      "rating": "5.0",
+      "terjual": "400",
+      "gambar": {
+        "klub": [
+          "../img/city_away_depan.jpg",
+          "../img/city_away_belakang.jpg",
+          "../img/city_away_depan.jpg",
+          "../img/city_away_belakang.jpg"
+        ],
+        "liga": "../img/premier_league.png"
+      }
+    },
+    {
+      "kategori": "Liga Inggris",
+      "nama": "JERSEY ARSENAL AWAY 2022/2023",
+      "harga": "120000",
+      "diskon": 30,
+      "kota": "Jakarta Timur",
+      "rating": "4.9",
+      "terjual": "250",
+      "gambar": {
+        "klub": [
+          "../img/arsenal_away_depan.jpg",
+          "../img/arsenal_away_belakang.jpg",
+          "../img/arsenal_away_depan.jpg",
+          "../img/arsenal_away_belakang.jpg"
+        ],
+        "liga": "../img/premier_league.png"
+      }
+    },
+    {
+      "kategori": "Liga Jerman",
+      "nama": "JERSEY BAYERN MUNCHEN HOME 2022/2023",
+      "harga": "120000",
+      "kota": "Jakarta Barat",
+      "rating": "4.9",
+      "terjual": "50",
+      "gambar": {
+        "klub": [
+          "../img/munchen_home_depan.jpg",
+          "../img/munchen_home_belakang.jpg",
+          "../img/munchen_home_depan.jpg",
+          "../img/munchen_home_belakang.jpg"
+        ],
+        "liga": "../img/bundesliga.png"
+      }
+    },
+    {
+      "kategori": "Liga Spanyol",
+      "nama": "JERSEY BARCELONA AWAY 2022/2023",
+      "harga": "60000",
+      "kota": "Tangerang",
+      "rating": "4.2",
+      "terjual": "10",
+      "gambar": {
+        "klub": [
+          "../img/barcelona_away_depan.jpg",
+          "../img/barcelona_away_belakang.jpg",
+          "../img/barcelona_away_depan.jpg",
+          "../img/barcelona_away_belakang.jpg"
+        ],
+        "liga": "../img/lal_liga.png"
+      }
+    },
+    {
+      "kategori": "Liga Spanyol",
+      "nama": "JERSEY REAL MADRID HOME 2022/2023",
+      "harga": "74000",
+      "kota": "Bekasi",
+      "rating": "4.7",
+      "terjual": "100",
+      "gambar": {
+        "klub": [
+          "../img/madrid_home_depan.jpg",
+          "../img/madrid_home_belakang.jpg",
+          "../img/madrid_home_depan.jpg",
+          "../img/madrid_home_belakang.jpg"
+        ],
+        "liga": "../img/lal_liga.png"
+      }
+    },
+    {
+      "kategori": "Liga Inggris",
+      "nama": "MANCHESTER UNITED HOME 2022/2023",
+      "harga": "120000",
+      "kota": "Depok",
+      "rating": "5.0",
+      "terjual": "350",
+      "gambar": {
+        "klub": [
+          "../img/emyu_home_depan.jpg",
+          "../img/emyu_home_belakang.jpeg",
+          "../img/emyu_home_depan.jpg",
+          "../img/emyu_home_belakang.jpeg"
+        ],
+        "liga": "../img/premier_league.png"
+      }
+    },
+    {
+      "kategori": "Liga Jerman",
+      "nama": "JERSEY DORTMUND HOME 2022/2023",
+      "harga": "120000",
+      "kota": "Jakarta Barat",
+      "rating": "4.9",
+      "terjual": "150",
+      "gambar": {
+        "klub": [
+          "../img/dortmund_home_depan.jpg",
+          "../img/dortmund_home_belakang.jpg",
+          "../img/dortmund_logo.jpeg",
+          "../img/dortmund_home_depan.jpg"
+        ],
+        "liga": "../img/bundesliga.png"
+      }
+    },
+    {
+      "kategori": "Liga Italia",
+      "nama": "JERSEY AC MILAN HOME 2022/2023",
+      "harga": "80000",
+      "kota": "Jakarta Utara",
+      "rating": "4.5",
+      "terjual": "70",
+      "gambar": {
+        "klub": [
+          "../img/milan_home_depan.jpeg",
+          "../img/milan_logo.jpg",
+          "../img/milan_home_depan.jpeg",
+          "../img/milan_logo.jpg"
+        ],
+        "liga": "../img/serie_a.png"
+      }
+    },
+    {
+      "kategori": "Liga Perancis",
+      "nama": "PARIS SAINT GERMAIN HOME 2022/2023",
+      "harga": "100000",
+      "kota": "Tangerang Selatan",
+      "rating": "4.9",
+      "terjual": "150",
+      "gambar": {
+        "klub": [
+          "../img/psg_home_depan.jpg",
+          "../img/psg_home_depan.jpg",
+          "../img/psg_home_depan.jpg",
+          "../img/psg_home_depan.jpg"
+        ],
+        "liga": "../img/Ligue1.png"
+      }
+    }
+  ]
+}
